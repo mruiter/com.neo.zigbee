@@ -1,0 +1,19 @@
+{
+  "name": "com.neo.zigbee",
+  "version": "0.1.0",
+  "description": "Adds support for NEO Zigbee devices to Homey",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NEO",
+    "Zigbee"
+  ],
+  "author": "Marco Ruiter",
+  "license": "MIT",
+  "dependencies": {
+    "homey-zigbeedriver": "^1.6.2",
+    "zigbee-clusters": "^1.4.0"
+  }
+}

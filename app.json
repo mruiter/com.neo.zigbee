@@ -1,0 +1,108 @@
+{
+  "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
+  "id": "com.neo.zigbee",
+  "version": "0.1.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "name": {
+    "en": "Neo Zigbee"
+  },
+  "description": {
+    "en": "Control your Zigbee devices made by NEO"
+  },
+  "tags": {
+    "en": [
+      "NEO"
+    ]
+  },
+  "category": [
+    "lights",
+    "security",
+    "appliances"
+  ],
+  "brandColor": "#FF4800",
+  "permissions": [
+    "homey:wireless:zigbee"
+  ],
+  "homeyCommunityTopicId": 0,
+  "source": "https://",
+  "bugs": {
+    "url": "https://"
+  },
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Marco Ruiter",
+    "email": "mruiter@tuxweb.nl"
+  },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "xxxxxxxxxxxx"
+      }
+    }
+  },
+  "contributors": {
+    "developers": [
+      {
+        "name": "Marco Ruiter",
+        "email": "mruiter@tuxweb.nl"
+      }
+    ]
+  },
+  "drivers": [
+    {
+      "id": "NAS-PD07ZB",
+      "name": {
+        "en": "CoolCam NEO Smart Motion Sensor"
+      },
+      "class": "sensor",
+      "capabilities": [
+        "alarm_motion",
+        "alarm_battery"
+      ],
+      "energy": {
+        "batteries": [
+          "CR123A"
+        ]
+      },
+      "images": {
+        "large": "/drivers/NAS-PD07ZB/assets/images/large.png",
+        "small": "/drivers/NAS-PD07ZB/assets/images/small.png"
+      },
+      "zigbee": {
+        "manufacturerName": [
+          "_TZE200_7hfcudw5"
+        ],
+        "productId": [
+          "TS0601"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              4,
+              5,
+              61184
+            ],
+            "bindings": [
+              0,
+              4,
+              5,
+              61184
+            ]
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/NAS-PD07ZB/assets/learn.svg",
+          "instruction": {
+            "en": "Press the reset button for aprox 5 seconds until the LED blinks."
+          }
+        }
+      },
+      "settings": []
+    }
+  ]
+}

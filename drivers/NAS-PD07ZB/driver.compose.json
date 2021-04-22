@@ -1,0 +1,50 @@
+{
+  "id": "NAS-PD07ZB",
+  "name": {
+    "en": "CoolCam NEO Smart Motion Sensor"
+  },
+  "class": "sensor",
+  "capabilities": [
+    "alarm_motion",
+    "alarm_battery"
+  ],
+  "energy": {
+    "batteries": [
+      "CR123A"
+    ]
+  },
+  "images": {
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "small": "{{driverAssetsPath}}/images/small.png"
+  },
+  "zigbee": {
+    "manufacturerName": [
+      "_TZE200_7hfcudw5"
+    ],
+    "productId": [
+      "TS0601"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+          4,
+          5,
+          61184
+        ],
+        "bindings": [
+          0,
+		  4,
+		  5,
+		  61184
+        ]
+      }
+    },
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/learn.svg",
+      "instruction": {
+        "en": "Press the reset button for aprox 5 seconds until the LED blinks."
+      }
+    }
+  }
+}

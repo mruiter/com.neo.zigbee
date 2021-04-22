@@ -1,0 +1,54 @@
+{
+  "id": "com.neo.zigbee",
+  "version": "0.1.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "name": {
+    "en": "Neo Zigbee"
+  },
+  "description": {
+    "en": "Control your Zigbee devices made by NEO"
+  },
+  "tags": {
+    "en": [
+      "NEO"
+    ]
+  },
+  "category": [
+    "lights",
+    "security",
+    "appliances"
+  ],
+  "brandColor": "#FF4800",
+  "permissions": [
+    "homey:wireless:zigbee"
+  ],
+  "homeyCommunityTopicId": 0,
+  "source": "https://",
+  "bugs": {
+    "url": "https://"
+  },
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Marco Ruiter",
+    "email": "mruiter@tuxweb.nl"
+  },
+  "contributing": {
+    "donate": {
+      "paypal": {
+        "username": "xxxxxxxxxxxx"
+      }
+    }
+  },
+  "contributors": {
+    "developers": [
+      {
+        "name": "Marco Ruiter",
+        "email": "mruiter@tuxweb.nl"
+      }
+    ]
+  }
+}
